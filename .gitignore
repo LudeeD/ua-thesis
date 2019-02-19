@@ -2,6 +2,8 @@
 build/*
 # Ignore the contents of every subdirectory
 build/**/*
+# But not the cover so that overleaf won't complain
+!build/cover.pdf
 # But not the directories themselves
 !build/**/
 # And allow gitkeeps
